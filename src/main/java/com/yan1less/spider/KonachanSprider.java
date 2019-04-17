@@ -24,6 +24,8 @@ public class  KonachanSprider {
     private static Integer EndPage = -1;
 
 
+    private KonachanSprider() {
+    }
 
     public static void startWithTags(String tags){
         starter(uri+"/post?tags="+tags);
